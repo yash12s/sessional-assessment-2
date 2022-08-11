@@ -4,10 +4,10 @@ body {
 	overflow: auto;
 	background: linear-gradient(
 		315deg,
-		rgb(13, 232, 177) 3%,
-		rgb(13, 232, 177) 38%,
-		rgb(13, 232, 177) 68%,
-		rgb(13, 232, 177) 98%
+		rgba(20, 19, 19, 0.355) 3%,
+		rgba(20, 19, 19, 0.355) 38%,
+		rgba(20, 19, 19, 0.355) 68%,
+		rgba(20, 19, 19, 0.355) 98%
 	);
 	animation: gradient 15s ease infinite;
 	background-size: 400% 400%;
@@ -26,7 +26,7 @@ body {
 }
 
 .wave {
-	background: rgb(255 255 255 / 25%);
+	background: rgba(84, 86, 86, 0.608);
 	border-radius: 1000% 1000% 0 0;
 	position: fixed;
 	width: 200%;
@@ -63,22 +63,5 @@ body {
 	}
 	100% {
 		transform: translateX(1);
-	}
-}
-/* Modal */
-
-#modal {
-	display: none;
-	height: 500px;
-	width: 500px;
-	position: absolute;
-	top: 4em;
-	left: 30em;
-}
-/* Media Queries */
-@media (max-width: 600px) {
-	span {
-		font-size: 16px;
-		font-weight: bold;
 	}
 }

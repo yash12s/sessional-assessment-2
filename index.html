@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Photo Gallery Application</title>
+		<title>Document</title>
 
 		<!-- Bootstrap files -->
 		<!-- CSS only -->
@@ -32,7 +32,7 @@
 		/>
 		<!-- my Css -->
 		<link rel="stylesheet" href="css/style.css" />
-		<title></title>
+		<title>Photo Gallery Application</title>
 	</head>
 	<body>
 		<!-- Background waves div -->
@@ -43,39 +43,34 @@
 		</div>
 
 		<!-- Nav Bar -->
-		<nav class="navbar navbar-expand-lg bg-danger py-1 sticky-top">
+		<nav class="navbar navbar-expand-lg bg-success py-1 sticky-top">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
 					<img style="height: 6%; width: 6%" src="images/1.png" />
 					<span class="align-middle" style="font-family: 'Roboto', sans-serif"
-						>Photo Gallery</span
+						>The Artsy Lens</span
 					>
 				</a>
 
 				<div class="navbar-nav">
-					<a class="nav-link active pt-3" aria-current="page" href="#"> Home</a>
+					<a class="nav-link active pt-3" aria-current="page" href="#"> <b>Home</b></a>
 					<!-- <a class="nav-link pt-3" href="#">Blogs</a> -->
-					<a class="nav-link pt-3" href="#">Post</a>
+					<a class="nav-link pt-3" href="#post"><b>Post</b> </a>
 
-					<a class="nav-link fa-1x" style="cursor: pointer">
-						<i
-							class="bi bi-person-fill nav-link align-text-top"
-							style="cursor: pointer"
-						></i>
-					</a>
 				</div>
 			</div>
 		</nav>
 
-        <!-- Main container -->
-        <div class="container main-container">
+		<!-- Main container -->
+		<div class="container main-container">
 			<h5 class="h1 text-white mt-3 ms-5">Gallery</h5>
 			<div id="my-container" class="row"></div>
 		</div>
 
 		<!-- Modal -->
 		<div id="modal"></div>
-        <!-- Create post -->
+
+		<!-- Create post -->
 		<div class="container" id="post">
 			<h3>Create New Post</h3>
 			<form>
@@ -102,11 +97,11 @@
 					/>
 				</div>
 				<br />
-				<button type="submit" id="create" class="btn btn-primary disabled">
-					Submit
-				</button>
+			    <button type="button" class="btn btn-success">Submit</button>
 			</form>
-            <!-- Socials -->
+		</div>
+
+		<!-- Socials -->
 		<div id="social-media" class="container-fluid p-4">
 			<div class="container">
 				<h3 class="">Social Media</h3>
@@ -123,10 +118,9 @@
 				</button>
 				<button type="button" class="btn btn-info mx-auto">
 					<a href="mailto:yash2493.be20@chitkara.edu.in" target="_blank">
-						<i class="fa-solid fa-envelope fa-2x" style="color: black"></i>
+						<i class="fa-solid fa-envelope fa-2x" style="color: rgb(233, 240, 241)"></i>
 					</a>
 				</button>
-                
 			</div>
 		</div>
 
