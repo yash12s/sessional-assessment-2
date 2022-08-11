@@ -4,10 +4,10 @@ body {
 	overflow: auto;
 	background: linear-gradient(
 		315deg,
-		rgb(26, 144, 186) 3%,
-		rgb(7, 198, 220) 38%,
-		rgb(143, 210, 216) 68%,
-		rgb(176, 231, 222) 98%
+		rgb(49, 220, 160) 3%,
+		rgb(81, 237, 57) 38%,
+		rgb(76, 244, 57) 68%,
+		rgb(98, 233, 132) 98%
 	);
 	animation: gradient 15s ease infinite;
 	background-size: 400% 400%;

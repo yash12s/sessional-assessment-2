@@ -75,6 +75,38 @@
 
 		<!-- Modal -->
 		<div id="modal"></div>
+        <!-- Create post -->
+		<div class="container" id="post">
+			<h3>Create New Post</h3>
+			<form>
+				<div class="form-group">
+					<label for="title">Title</label>
+					<input
+						type="text"
+						class="form-control"
+						id="title"
+						aria-describedby="emailHelp"
+						placeholder="Enter title"
+					/>
+				</div>
+				<div class="form-group">
+					<label for="url">Url</label>
+					<input type="url" class="form-control" placeholder="Enter the url" />
+				</div>
+				<div class="form-group">
+					<label for="ThumbnailUrl">Thumbnail Url</label>
+					<input
+						type="url"
+						class="form-control"
+						placeholder="Enter Thumbnail Url"
+					/>
+				</div>
+				<br />
+				<button type="submit" id="create" class="btn btn-primary disabled">
+					Submit
+				</button>
+			</form>
+		</div>
 
 		<!-- JavaScript -->
 		<script src="js/index.js"></script>
